@@ -1,13 +1,17 @@
 <template>
     <o-frame>
-        Index
+        <side></side>
+        <cont></cont>
     </o-frame>
 </template>
 
 <script type="text/ecmascript-6">
     import oFrame from '../components/o-frame.vue';
+    import side from '../components/side.vue'
+    import cont from '../components/content.vue'
+
     export default {
-        components: {oFrame},
+        components: {oFrame, side, cont},
         props: {},
         data: function () {
             return {};

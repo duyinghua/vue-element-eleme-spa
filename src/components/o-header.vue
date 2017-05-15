@@ -18,10 +18,9 @@
     </el-menu>
 </template>
 
-<script type="text/ecmascript-6">
-
+<script>
     export default {
-        data: function () {
+        data () {
             return {};
         },
         computed: {
